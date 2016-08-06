@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center_vertical|center_horizontal"
+    android:background="@drawable/picture1"
+    android:onClick="onSplashPageClick"
+    tools:context="com.example.mochamadtry.myapplication.SplashPage"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_height="20dp"
+        android:layout_width="300dp"
+        android:src="@drawable/logo_nama"
+        android:layout_weight="0.52" />
+
+    <ImageView
+        android:layout_height="182dp"
+        android:layout_width="121dp"
+        android:src="@drawable/logo_aja"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Registrasi Alat"
+        android:id="@+id/button"
+        android:layout_weight="0.05"
+        android:background="#55a4d6"/>
+
+
+</LinearLayout>
