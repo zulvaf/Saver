@@ -11,7 +11,7 @@
     android:gravity="center_vertical|center_horizontal"
     android:background="@drawable/picture1"
     android:onClick="onSplashPageClick"
-    tools:context="com.example.mochamadtry.myapplication.SplashPage"
+    tools:context="com.example.reducto.saver.SplashPage"
     android:weightSum="1">
 
     <ImageView

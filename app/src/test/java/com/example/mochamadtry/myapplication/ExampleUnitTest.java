@@ -1,4 +1,4 @@
-package com.example.mochamadtry.myapplication;
+package com.example.reducto.saver;
 
 import org.junit.Test;
 

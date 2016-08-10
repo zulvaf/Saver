@@ -1,4 +1,4 @@
-package com.example.mochamadtry.myapplication;
+package com.example.reducto.saver;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
