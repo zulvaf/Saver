@@ -3,4 +3,80 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="@color/primaryOrange">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Text"
+            android:paddingLeft="16dp"
+            android:id="@+id/title"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:src="@drawable/ic_settings_white_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:id="@+id/button2"
+            android:background="@color/primaryOrange"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="@color/primaryOrange">
+
+        <ImageButton
+            android:src="@drawable/ic_live_tv_black_36dp"
+            android:background="@color/primaryOrange"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/deviceButton" />
+
+        <ImageButton
+            android:src="@drawable/ic_battery_charging_full_black_36dp"
+            android:background="@color/primaryOrange"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/powerButton" />
+
+        <ImageButton
+            android:src="@drawable/ic_attach_money_black_36dp"
+            android:background="@color/primaryOrange"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/moneyButton" />
+
+        <ImageButton
+            android:src="@drawable/ic_playlist_add_check_black_36dp"
+            android:background="@color/primaryOrange"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/listButton" />
+    </LinearLayout>
+
+
 </LinearLayout>

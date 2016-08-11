@@ -16,6 +16,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.reducto.saver.MainActivity"></activity>
+        <activity android:name=".HomePageActivity"></activity>
     </application>
 
 </manifest>

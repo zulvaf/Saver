@@ -31,6 +31,7 @@
         android:layout_height="wrap_content"
         android:text="Registrasi Alat"
         android:id="@+id/button"
+        android:onClick="openHomePage"
         android:layout_weight="0.05"
         android:background="#55a4d6"/>
 
