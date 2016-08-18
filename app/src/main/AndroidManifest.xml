@@ -17,6 +17,8 @@
         </activity>
         <activity android:name="com.example.reducto.saver.MainActivity"></activity>
         <activity android:name=".HomePageActivity"></activity>
+        <activity android:name=".AddDeviceActivity"></activity>
+        <activity android:name=".StatusPageActivity"></activity>
     </application>
 
 </manifest>

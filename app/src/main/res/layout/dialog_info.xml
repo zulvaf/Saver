@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="left|top"
+            android:background="@android:color/darker_gray">
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="150dp"
+            android:paddingBottom="16dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/image"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/itemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:text="TEST"
+            android:textSize="16sp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/hoursLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/itemName"
+            android:text="Dinyalakan"
+            android:textColor="@color/lightGrey"
+            android:textSize="14sp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/costLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hoursLabel"
+            android:text="Biaya"
+            android:textColor="@color/lightGrey"
+            android:textSize="14sp"
+            android:layout_centerHorizontal="true"/>
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp"
+            android:layout_below="@id/costLabel"
+            android:layout_height="1dp"
+            android:background="@color/lightGrey" />
+
+        <ImageButton
+            android:src="@drawable/information"
+            android:background="@android:color/transparent"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="24dp"
+            android:paddingRight="50dp"
+            android:paddingLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line"
+            android:id="@+id/infoButton" />
+
+        <ImageButton
+            android:src="@drawable/pencil"
+            android:background="@android:color/transparent"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line"
+            android:layout_toLeftOf="@id/infoButton"
+            android:id="@+id/editButton" />
+
+        <ImageButton
+            android:src="@drawable/cancel_button"
+            android:background="@android:color/transparent"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line"
+            android:layout_toRightOf="@id/infoButton"
+            android:id="@+id/closeButton" />
+
+
+
+    </RelativeLayout>
+</LinearLayout>

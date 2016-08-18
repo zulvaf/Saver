@@ -1,4 +1,22 @@
 <resources>
     <string name="app_name">Saver</string>
     <string name="daftar_alat">Daftar Alat</string>
+    <string name="tambah_alat">Tambah Alat</string>
+    <string name="device_on">Menyala</string>
+    <string name="device_off">Tidak Menyala</string>
+    <string name="device_name">Nama Alat</string>
+    <string name="priority">Prioritas</string>
+    <string name="device_id">ID Alat</string>
+    <string name="save">Simpan</string>
+    <string name="device_photo">Ambil Foto Alat</string>
+    <string name="pemakaian_daya">Pemakaian Daya</string>
+    <string name="biaya_listrik">Biaya Listrik</string>
+    <string name="detail">Rincian</string>
+    <string name="status">Status</string>
+
+    <string-array name="priority_arrays">
+        <item>Tinggi</item>
+        <item>Sedang</item>
+        <item>Rendah</item>
+    </string-array>
 </resources>
